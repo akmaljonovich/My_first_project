@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    font-style: normal;
+    color: #22253B;
+}
+.contentBlock {
+    margin: 0   120px;
+}
+
+.navbar {
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(7.5px);
+    border-radius: 75px;
+}
+.navbar, .menu, .sing, .btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.menu { 
+    margin-left: 75px;
+    gap: 40px;
+}
+.sing {
+    margin-left: 330px;
+    gap: 15px;
+}
+.btn {
+    background: #38BFF2;
+    border-radius: 34px;
+    padding: 15px;
+}
+.btn img {
+    margin-right: 5px;
+}
+.textMenu {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 104.4%;
+    color: #22253B;
+}
+
+.btnText {
+    font-weight: 500;
+    font-size: calc(0.18vw + 9px);
+    line-height: 104.4%;
+    color: #FFFFFF;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+    gap: 110px;
+}
+.gridContainer .flex {
+    display: flex;
+    flex-direction: column;
+}
+.grid_elem {
+
+}
+.grid_elem .text_16 {
+    border-top: 1px solid #DEDEDE;
+    margin-top: 30px;
+    padding-top: 15px;
+    width: 365px;
+}
+.text_16 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+
+}
+.btnOrange {
+    background: #F15525;
+    border-radius: 82px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 30px;
+    justify-content: center;
+    margin-top: 45px;
+    width: 330px;
+    cursor: pointer;
+}
+.btnOrangText {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 96.69%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    
+}
+.h1 {
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 100%;
+    width: 640px;
+}
+.orang {
+    color: #F15525;
+}
